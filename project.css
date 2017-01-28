@@ -1,0 +1,40 @@
+body{
+  background-image: url("http://on-desktop.com/wps/Auto___Lamborghini_Photo_of_a_car_Lamborghini_Aventador__063460_.jpg");
+  background-size:cover;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+li{
+  float: left;;
+
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: turquoise
+}
+.active{
+  background-color: steelblue;
+}
+
+.sex{
+  margin-left: 200;
+  color: red;
+}
+.active{
+  margin-left: 400;
+}
+.sex:hover{
+  color: black;
+}
